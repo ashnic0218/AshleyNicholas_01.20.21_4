@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* min-width: 570px; */
 }
 
 a,
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -305,6 +306,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
+    width: 214px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -748,6 +751,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    /* height: 370px;
+    width: 370px; */
 }
 
 .portfolio-row {
@@ -830,13 +835,13 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
-.bg-atlanta-20made-20sign {
+/* .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.webp");
-}
+} */
 
-.bg-atlanta-20made-20sign-20orange {
+/* .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
-}
+} */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -865,12 +870,21 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    /* .portfolio-thumb {
+        width: 270px;
+        height: 270px;
+    } */
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
+    /* .portfolio-thumb {
+        width: 270px;
+        height: 270px;
+    } */
 }
 
 @media (max-width: 991px) {
@@ -976,7 +990,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 214px;
     }
     .nav-invert .navbar-header {
         float: none;
